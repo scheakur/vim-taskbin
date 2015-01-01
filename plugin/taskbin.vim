@@ -1,5 +1,5 @@
 "=============================================================================
-" vim-taskbin - Add tasks to OmniFocus from Vim
+" vim-taskbin - Add tasks to OmniFocus from Vim.
 " Copyright (c) 2015 Scheakur <http://scheakur.com/>
 " License: MIT license
 "=============================================================================
