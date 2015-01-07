@@ -12,13 +12,13 @@ let g:loaded_taskbin = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! -nargs=? Taskbin call s:taskbin(<q-args>)
-
 function! s:taskbin(args)
 	if taskbin#post(a:args)
 		redraw!
 	endif
 endfunction
+
+command! -nargs=? Taskbin call s:taskbin(<q-args>)
 
 nnoremap <silent> <Plug>(taskbin)  :<C-u>Taskbin<CR>
 

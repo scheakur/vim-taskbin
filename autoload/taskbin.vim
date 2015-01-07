@@ -11,6 +11,7 @@ function! s:cmd()
 	return get(g:, 'taskbin_command', 'go-gmail2omnifocus')
 endfunction
 
+
 function! taskbin#post(text)
 	if !executable(s:cmd())
 		call s:show_error()
